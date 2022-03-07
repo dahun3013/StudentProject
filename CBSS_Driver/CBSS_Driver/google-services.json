@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "609031137349",
+    "firebase_url": "https://childsafety-efe94.firebaseio.com",
+    "project_id": "childsafety-efe94",
+    "storage_bucket": "childsafety-efe94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609031137349:android:9db69465288fa2ee7d1b2c",
+        "android_client_info": {
+          "package_name": "com.driver.cbss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609031137349-ns4mrlbqqbgkmo84978f1718mjvm5u78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg8g72XJo5LyXjPWog8-fd9p0nA4zR_fI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609031137349-ns4mrlbqqbgkmo84978f1718mjvm5u78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609031137349:android:5cea30a46f187e497d1b2c",
+        "android_client_info": {
+          "package_name": "com.parents.cbss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609031137349-pvkjeetng5vgh0damlje57qvn7a5tggn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parents.cbss",
+            "certificate_hash": "8c08704bd5090d801fff57ddb834634048a494e5"
+          }
+        },
+        {
+          "client_id": "609031137349-ns4mrlbqqbgkmo84978f1718mjvm5u78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg8g72XJo5LyXjPWog8-fd9p0nA4zR_fI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609031137349-ns4mrlbqqbgkmo84978f1718mjvm5u78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

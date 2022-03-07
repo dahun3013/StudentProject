@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@android:anim/linear_interpolator"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 효과 정의 android:fromXDelta="100%p" : 시작위치 android:toXDelta="0" : 끝나는 위치 android:duration="200" : 진행속도 -->
+    <translate
+        android:fromYDelta = "50%"
+        android:toYDelta = "0"
+        android:duration = "5000"/>
+</set>

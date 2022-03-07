@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_car"
+            android:icon="@drawable/ic_menu_car"
+            android:title="@string/menu_home" />
+    </group>
+
+    <item android:title="기본정보">
+        <menu>
+            <item
+                android:id="@+id/nav_permission"
+                android:icon="@drawable/ic_menu_permission"
+                android:title="@string/menu_permission" />
+            <item
+                android:id="@+id/nav_notify"
+                android:icon="@drawable/ic_menu_profile"
+                android:title="@string/menu_tools" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>

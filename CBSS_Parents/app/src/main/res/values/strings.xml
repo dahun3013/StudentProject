@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CBSS\n(학부모용)</string>
+    <string name="nav_header_title">순천향 컴공 유치원</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="google_map_key">AIzaSyAJC-PuDqtlQXcPbkZOoTf18ZdiSBr792Q</string>
+
+    <string name="menu_home">차량위치 확인</string>
+    <string name="menu_tools">프로필 수정</string>
+    <string name="menu_permission">권한 설정</string>
+    <string name="menu_logout">로그아웃</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

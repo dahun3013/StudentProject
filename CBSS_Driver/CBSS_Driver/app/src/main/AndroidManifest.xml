@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.driver.cbss">
+    <!-- 인터넷 사용 권한 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- GPS 사용을 위한 권한 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- BLE 사용을 위한 권함 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon_bus"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_icon_bus"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.samsung.android.icon_container.has_icon_container"
+            android:value="true" />
+        <activity
+            android:name=".activity.LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity"
+            android:label="순천향 컴공 유치원 (운전자용)"/>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.ProfileActivity" />
+    </application>
+
+</manifest>
